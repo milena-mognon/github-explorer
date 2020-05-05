@@ -21,6 +21,7 @@ export const Form = styled.form<FormProps>`
   margin-top: 40px;
   max-width: 700px;
   display: flex;
+
   input {
     background: #fff;
     flex: 1;
@@ -56,10 +57,10 @@ export const Form = styled.form<FormProps>`
     font-size: 20px;
     font-weight: bold;
     transition: background-color 0.2s;
+
     &:hover {
       background: ${shade(0.2, '#04d361')};
     }
-  }
 `;
 
 export const Error = styled.span`
@@ -72,7 +73,7 @@ export const Repositories = styled.div`
   margin-top: 80px;
   max-width: 700px;
   a {
-    background: #202020;
+    background: #fff;
     border-radius: 5px;
     width: 100%;
     padding: 24px;
@@ -109,7 +110,7 @@ export const Repositories = styled.div`
     }
     svg {
       margin-left: auto;
-      color: #cbcbd6;
+      color: #a8a8b3;
     }
   }
 `;
